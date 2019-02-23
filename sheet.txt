@@ -2,7 +2,7 @@
 	Syntax : cd <directoryurl>
 
 2.	ls : list files and directories
-	Syntax : ls <optios> 
+	Syntax : ls <options> 
 		Options : -a : include hidden files(starting with dot).
 	  		  -l : detailed long list
 			  -i : print inode of each file
@@ -59,7 +59,7 @@
 			  -s : set default shell
 			  -u : set userID
 			  -p : set password
-			  -e : set expiry date for user
+			  -e : set expiry date for user[YYYY-MM-DD]
 
 13.	usermod : modify user 
 	Syntax : usermod <options> <username>
@@ -68,7 +68,7 @@
 			  -G : change list supplmentary groups(separated by comma without spaces)
 			  -s : change default shell
 			  -u : change userID
-			  -e : change expiry date for user
+			  -e : change expiry date for user[YYYY-MM-DD]
 
 14.	groupadd : create a new group
 	Syntax : groupadd <options> <group name>
