@@ -27,7 +27,7 @@
 6.	rmdir : remove a directory
 	Syntax : rmdir <directoryname>
 
-7.	touch : create a new file and modify access and modification time
+7.	touch : create a new file and modify acceiss and modification time
 	Syntax : touch <options> <filename>
 		Options : -a : change access time
 			  -m : change modification
@@ -35,5 +35,36 @@
 8.	stat : gives file/folder details
 	Syntax : stat <file/folder name>
 
+9.	alias : list all alias 
+
+10.	useradd : create a new user
+	Syntax : useradd <options> <username>
+		Options : -b : set DEFAULT base directory
+			  -d : set base directory
+			  -g : set primary group
+			  -G : set secondary groups
+			  -s : set default shell
+			  -u : set userID
+			  -p : set password
+			  -e : set expiry date for user
+
+11.	usermod : modify user 
+	Syntax : usermod <options> <username>
+		Options : -d : change base directory
+			  -g : change primary group
+			  -G : change list supplmentary groups(separated by comma without spaces)
+			  -s : change default shell
+			  -u : change userID
+			  -e : change expiry date for user
+
+12.	groupadd : create a new group
+	Syntax : groupadd <options> <group name>
+		Options : -g : set groupID
+			  -p : set password
+
+13.	groupmod : modify group
+	Syntax : group <options> <groupname>
+		Options : -g : modify groupID
+			  -p : modify password
 		
  
