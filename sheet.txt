@@ -10,7 +10,8 @@
 			  -r : reverse sorting order
 			  -t : sort by modification time(newest first)
 			  -S : sort by file size(largest first)
-3.	mv : move a directory
+
+3.	mv : move a directory/file(can also used to rename)
 	Syntax : mv <initial location> <final location>
 
 4.	rm : remove a file
@@ -37,7 +38,19 @@
 
 9.	alias : list all alias 
 
-10.	useradd : create a new user
+10.	cat : concat/view data in a file
+	Syntax : cat > filename (create a new file)
+		 cat file1 >> file2 (append file1 data to file2)
+		 cat filename (view file contents)
+
+11.	chmod : change file permissions
+	Syntax : chmod <octal1> <octal2> <octal3> <filename>
+		 chmod <permission> filename
+
+			USER/GROUP PERMISSIONS MANAGEMENT
+			---------------------------------
+
+12.	useradd : create a new user
 	Syntax : useradd <options> <username>
 		Options : -b : set DEFAULT base directory
 			  -d : set base directory
@@ -48,7 +61,7 @@
 			  -p : set password
 			  -e : set expiry date for user
 
-11.	usermod : modify user 
+13.	usermod : modify user 
 	Syntax : usermod <options> <username>
 		Options : -d : change base directory
 			  -g : change primary group
@@ -57,14 +70,30 @@
 			  -u : change userID
 			  -e : change expiry date for user
 
-12.	groupadd : create a new group
+14.	groupadd : create a new group
 	Syntax : groupadd <options> <group name>
 		Options : -g : set groupID
 			  -p : set password
 
-13.	groupmod : modify group
+15.	groupmod : modify group
 	Syntax : group <options> <groupname>
 		Options : -g : modify groupID
 			  -p : modify password
-		
+
+16.	id : show user details
+	Syntax : id <username>
+
+17.     ps : shows snapshot of processes
+	Syntax : ps <options>
+		Options : -e : list all processes
+			  -p : snapshot of specific process by its PID.
+			  -u : snapshot of processes created by a userID.
+			  -l : long detailed format
  
+18.	kill : send a signal to a process
+	Syntax : kill <options> <PID>
+	 
+
+
+TODO : nice, renice, pstree, umask, suid, guid, sticky-bit 		
+
