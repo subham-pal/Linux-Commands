@@ -1,0 +1,11 @@
+1.	cd : Change directory
+
+2.	ls : list files and directories
+		Options : -a : include hidden files(starting with dot).
+			  -l : detailed long list
+			  -i : print inode of each file
+			  -h : size in human readable
+			  -r : reverse sorting order
+			  -t : sort by modification time(newest first)
+			  -S : sort by file size(largest first)
+ 
