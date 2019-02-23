@@ -1,11 +1,39 @@
 1.	cd : Change directory
+	Syntax : cd <directoryurl>
 
 2.	ls : list files and directories
+	Syntax : ls <optios> 
 		Options : -a : include hidden files(starting with dot).
-			  -l : detailed long list
+	  		  -l : detailed long list
 			  -i : print inode of each file
 			  -h : size in human readable
 			  -r : reverse sorting order
 			  -t : sort by modification time(newest first)
 			  -S : sort by file size(largest first)
+3.	mv : move a directory
+	Syntax : mv <initial location> <final location>
+
+4.	rm : remove a file
+	Syntax : rm <options> <filename>
+		Options : -r : recursive remove
+			  -f : forceful
+			  -i : prompt before removal
+			  -v : verbose(show every action performed)
+
+5.	mkdir : create a new directory
+	Syntax : mkdir <options> <directoryname>	
+		Options : -m : with permission
+
+6.	rmdir : remove a directory
+	Syntax : rmdir <directoryname>
+
+7.	touch : create a new file and modify access and modification time
+	Syntax : touch <options> <filename>
+		Options : -a : change access time
+			  -m : change modification
+
+8.	stat : gives file/folder details
+	Syntax : stat <file/folder name>
+
+		
  
