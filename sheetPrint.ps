@@ -1,8 +1,8 @@
 %!PS-Adobe-3.0
 %%Title: sheet.txt
 %%For: siriuslight
-%%Creator: VIM - Vi IMproved 8.0 (2016 Sep 12)
-%%CreationDate: Sun Feb 24 01:03:52 2019
+%%Creator: VIM - Vi IMproved 7.4 (2013 Aug 10)
+%%CreationDate: Mon Feb 25 11:33:06 2019
 %%DocumentData: Clean8Bit
 %%Orientation: Portrait
 %%Pages: (atend)
@@ -26,7 +26,7 @@
 %%EndDefaults
 %%BeginProlog
 %%BeginResource: procset VIM-Prolog
-%%BeginDocument: /usr/share/vim/vim80/print/prolog.ps
+%%BeginDocument: /usr/share/vim/vim74/print/prolog.ps
 %!PS-Adobe-3.0 Resource-ProcSet
 %%Title: VIM-Prolog
 %%Version: 1.4 1
@@ -74,7 +74,7 @@ CP setpacking
 %%EndDocument
 %%EndResource
 %%BeginResource: encoding VIM-latin1
-%%BeginDocument: /usr/share/vim/vim80/print/latin1.ps
+%%BeginDocument: /usr/share/vim/vim74/print/latin1.ps
 %!PS-Adobe-3.0 Resource-Encoding
 %%Title: VIM-latin1
 %%Version: 1.0 0
@@ -238,7 +238,18 @@ F0 sf
 (18.     kill : send a signal to a process)59.5 572.4 ms
 (        Syntax : kill <options> <PID>)59.5 562.4 ms
 (         )59.5 552.4 ms
-(TODO : nice, renice, pstree, umask, suid, guid, sticky-bit              )59.5 522.4 ms
+(19.     nice : start a process with custom nice value)59.5 542.4 ms
+(        Syntax : nice -n <nice value> <process>)59.5 532.4 ms
+(20.     renice : modify the nice value of a running process)59.5 512.4 ms
+(        Syntax : renice -n <nice value> <option> <value>)59.5 502.4 ms
+(                Options : -g : value as groupID)59.5 492.4 ms
+(                          -u : value as userID)59.5 482.4 ms
+(                          -p : value as processID\(default if no option is given\))59.5 472.4 ms
+(21.     pstree : show process tree)59.5 452.4 ms
+(        Syntax : pstree <option>)59.5 442.4 ms
+(                Options : -p : show PID as well)59.5 432.4 ms
+(        )59.5 392.4 ms
+(TODO : nice, renice, pstree, umask, suid, guid, sticky-bit              )59.5 252.4 ms
 re sp
 %%PageTrailer
 %%Trailer

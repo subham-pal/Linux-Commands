@@ -93,6 +93,33 @@
 18.	kill : send a signal to a process
 	Syntax : kill <options> <PID>
 	 
+19.	nice : start a process with custom nice value
+	Syntax : nice -n <nice value> <process>
+
+20.	renice : modify the nice value of a running process
+	Syntax : renice -n <nice value> <option> <value>
+		Options : -g : value as groupID
+			  -u : value as userID
+			  -p : value as processID(default if no option is given)
+
+21.	pstree : show process tree
+	Syntax : pstree <option>
+		Options : -p : show PID as well
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
 TODO : nice, renice, pstree, umask, suid, guid, sticky-bit 		
