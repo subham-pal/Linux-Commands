@@ -106,8 +106,16 @@
 	Syntax : pstree <option>
 		Options : -p : show PID as well
 
-
-
+22.	crontab : create, view and modify crontab files used for scheduling recurring tasks
+	Syntax : crontab <option>
+		Options : -l : view crontab file
+			  -e : edit crontab file
+			  -r : remove crontab file
+			  -u : mention user name of crontab file owner
+	
+	Syntax of each crontab entry.
+	<min> <hour> <day> <month> <year> command
+	Each out of five can be replaced by <*> for every. 
 	
 
 
@@ -122,5 +130,5 @@
 
 
 
-TODO : nice, renice, pstree, umask, suid, guid, sticky-bit 		
+TODO : setfacl, getfacl, gpasswd, umask, suid, guid, sticky-bit, groups, crontab, wget 		
 
