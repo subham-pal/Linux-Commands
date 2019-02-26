@@ -1,3 +1,8 @@
+Author : Subham Pal (Siriuslight)
+
+	BASIC FILE/FOLDER COMMANDS
+	--------------------------
+
 1.	cd : Change directory
 	Syntax : cd <directoryurl>
 
@@ -80,33 +85,36 @@
 		Options : -g : modify groupID
 			  -p : modify password
 
-16.	id : show user details
+16.	groups : prints all the groups the user belongs to
+	Syntax : groups <username>
+
+17.	id : show user details
 	Syntax : id <username>
 
-17.     ps : shows snapshot of processes
+18.     ps : shows snapshot of processes
 	Syntax : ps <options>
 		Options : -e : list all processes
 			  -p : snapshot of specific process by its PID.
 			  -u : snapshot of processes created by a userID.
 			  -l : long detailed format
  
-18.	kill : send a signal to a process
+19.	kill : send a signal to a process
 	Syntax : kill <options> <PID>
 	 
-19.	nice : start a process with custom nice value
+20.	nice : start a process with custom nice value
 	Syntax : nice -n <nice value> <process>
 
-20.	renice : modify the nice value of a running process
+21.	renice : modify the nice value of a running process
 	Syntax : renice -n <nice value> <option> <value>
 		Options : -g : value as groupID
 			  -u : value as userID
 			  -p : value as processID(default if no option is given)
 
-21.	pstree : show process tree
+22.	pstree : show process tree
 	Syntax : pstree <option>
 		Options : -p : show PID as well
 
-22.	crontab : create, view and modify crontab files used for scheduling recurring tasks
+23.	crontab : create, view and modify crontab files used for scheduling recurring tasks
 	Syntax : crontab <option>
 		Options : -l : view crontab file
 			  -e : edit crontab file
@@ -117,6 +125,9 @@
 	<min> <hour> <day> <month> <year> command
 	Each out of five can be replaced by <*> for every. 
 	
+24.	setfacl : set file access control list
+	Syntax : setfacl <option>
+		Options : -R : recursively apply to sub files and folder
 
 
 
@@ -129,6 +140,5 @@
 
 
 
-
-TODO : setfacl, getfacl, gpasswd, umask, suid, guid, sticky-bit, groups, crontab, wget 		
+TODO : setfacl, getfacl, gpasswd, umask, suid, guid, sticky-bit, groups, wget 		
 
