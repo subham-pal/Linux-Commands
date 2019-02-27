@@ -142,7 +142,7 @@ Author : Subham Pal (Siriuslight)
 
 28.	ifdown :  bring a network interface down.
 
-29.	mkfs : create file system on a device(also used for formatting)
+29.	mkfs : create file system on a device(also used for formiatting)
 	Syntax : mkfs -t <filesystem>  <device>
 
 30.	fsck : checks filesystem on a device for errors.
@@ -152,9 +152,11 @@ Author : Subham Pal (Siriuslight)
 	Syntax : df <filename>
 	If no  filename is given disk usage of all mounted filesystem.
 
-	
+32.	fuser : list the processes using a particular file.
+	Syntax :  fuser <option> <filename/foldername>
+		Options: -k : kill all processes using the file.	
 
-
+33.	telinit : change the run level(0-5) of system
 
 
 
