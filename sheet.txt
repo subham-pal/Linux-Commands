@@ -128,6 +128,22 @@ Author : Subham Pal (Siriuslight)
 24.	setfacl : set file access control list
 	Syntax : setfacl <option>
 		Options : -R : recursively apply to sub files and folder
+			  -x : remove the facl of given entity
+
+
+25.	getfacl : prints all facl entries of the file.
+	Syntax : getfacl <filename>
+
+
+26.	Turn on/off firewall
+	Command : sudo systemctl stop/start/status firewalld
+
+27.	ifup : bring a network interface up.
+
+28.	ifdown :  bring a network interface down.
+
+29.	mkfs : create file system on a device(also used for formatting)
+	Synatx : mkfs -t <filesystem>  <device>
 
 
 
@@ -137,8 +153,5 @@ Author : Subham Pal (Siriuslight)
 
 
 
-
-
-
-TODO : setfacl, getfacl, gpasswd, umask, suid, guid, sticky-bit, groups, wget 		
+TODO : gpasswd, umask, suid, guid, sticky-bit, groups, wget 		
 
